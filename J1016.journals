@@ -1,0 +1,52 @@
+Marco De la Grandiere
+
+Journal W1016
+I assisted: no one
+I recieved assistance from: no one
+
+24-september-2019
+
+
+
+
+"NOT GATE"
+https://www.falstad.com/circuit/circuitjs.html?cct=$+1+0.000005+10.20027730826997+50+5+50%0A150+224+128+560+128+0+2+0+5%0AL+224+112+128+112+0+0+false+5+0%0AL+224+144+128+144+0+0+false+5+0%0AM+560+128+624+128+0+2.5%0A
+    
+
+And GATE
+
+$ 1 0.000005 10.20027730826997 50 5 50
+L 272 112 128 112 0 1 false 5 0
+L 272 144 128 144 0 1 false 5 0
+M 560 128 624 128 0 2.5
+150 272 128 560 128 0 2 5 5
+x 209 13 620 16 4 24 Marco\s24\sseptember\s2019\s"\sAnd\sGate"
+
+
+OR GATE
+$ 1 0.000005 10.20027730826997 50 5 50
+L 224 112 128 112 0 0 false 5 0
+L 224 144 128 144 0 0 false 5 0
+M 560 128 624 128 0 2.5
+152 224 128 560 128 0 2 0 5
+x 214 31 613 34 4 24 Marco\s24\sSeptember\s2019\s"\sOr\sGate"
+
+
+
+XOR GATE
+
+$ 1 0.000005 10.20027730826997 50 5 50
+L 224 112 128 112 0 0 false 5 0
+L 224 144 128 144 0 0 false 5 0
+M 560 128 624 128 0 2.5
+154 224 128 560 128 0 2 0 5
+x 74 21 668 24 4 24 Marco\sDe\sLa\sGrandiere\s24\sSeptember\s2019\s"\sXor\sGate"
+
+
+NOR GATE
+$ 1 0.000005 10.20027730826997 50 5 50
+L 224 112 128 112 0 0 false 5 0
+L 224 144 128 144 0 0 false 5 0
+M 560 128 624 128 0 2.5
+153 224 128 560 128 0 2 5 5
+x 174 20 585 23 4 24 Marco\s24\sSeptember\s2019\s"\sNor\sGate"
