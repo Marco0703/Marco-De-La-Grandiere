@@ -1,0 +1,43 @@
+Marco De La Grandiere
+Journals for W1018
+8-oct-2019
+
+
+
+I recieved assistence from: no one
+I assisted: no one
+
+
+$ 1 0.000005 10.20027730826997 50 5 50
+150 160 144 384 144 0 2 5 5
+150 160 320 384 320 0 2 5 5
+150 752 160 976 160 0 2 0 5
+150 736 304 976 304 0 2 0 5
+L 160 128 64 128 0 1 false 5 0
+L 160 336 64 336 0 1 false 5 0
+w 160 160 80 176 0
+w 80 176 80 432 0
+w 80 432 128 432 0
+w 128 432 160 336 0
+w 384 144 752 144 0
+w 160 304 160 224 0
+w 160 224 384 224 0
+w 384 224 384 144 0
+w 384 320 736 320 0
+M 976 160 1104 160 0 2.5
+M 976 304 1104 304 0 2.5
+w 752 176 624 176 0
+w 624 176 624 240 0
+w 624 240 976 240 0
+w 976 240 976 304 0
+w 736 288 640 288 0
+w 640 288 640 224 0
+w 640 224 976 224 0
+w 976 224 976 160 0
+
+
+It can operate with a delay in input by one clock cycle.
+
+ D input condition is only copied to the output Q when the clock input is active.
+
+D-type Flip-Flop Circuit avoids the problem in the SR latch when both inputs are low, since that state is no longer possible.
